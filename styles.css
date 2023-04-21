@@ -20,8 +20,8 @@ body {
 .article code {
   background-color: rgb(49, 49, 49);
   display: block;
-  padding: 0em 2em 1em 2em;
-  white-space: pre-line;
+  padding: 1em 2em 1em;
+  white-space: pre;
   border-radius: 10px;
   text-align: left;
   font-family: "Oxygen Mono", monospace;

@@ -29,8 +29,8 @@ body {
     code {
         background-color: rgb(49, 49, 49);
         display: block;
-        padding: 0em 2em 1em 2em; // top is 0px to account for html \n and preline
-        white-space: pre-line;
+        padding: 1em 2em 1em;
+        white-space: pre;
         border-radius: 10px;
         text-align: left;
         font-family: $ff;

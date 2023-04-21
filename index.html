@@ -6,14 +6,12 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-
-
-
-        <div id="nav">
-            <a href=""></a>
-        </div>
-
         <div class="article">
+            
+
+            
+
+
             <h1>Rust and Systems Programming</h1>
             <p>Article content</p>
             <h2>Some topic</h2>
@@ -21,11 +19,25 @@
             <code>
                 let f: i32 = 10;
                 let g: i32 = 20;
+                let x: Item {
+
+                    a: f,ff
+                    b: g
+                }
             </code>
             
+            
+
+
+
         </div>
-
-
-
     </body>
+    <script>
+        window.onload = () => {
+            let codeblocks = document.getElementsByTagName("code");
+            for (let i = 0; i < codeblocks.length; i++) {
+                codeblocks[i].innerHTML = codeblocks[i].innerHTML.replace(/\n\s{16}/g, "\n");
+            }
+        }
+    </script>
 </html>
