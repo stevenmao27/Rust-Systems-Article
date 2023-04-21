@@ -1,5 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap");
+body {
+  background-color: rgb(24, 24, 24);
+  color: rgb(240, 240, 240);
+  font-family: "Oxygen Mono", monospace;
+  text-align: center;
+}
+
+.article {
+  margin-top: 5em;
+  display: inline-block;
+  width: 50%;
+}
 .article h1 {
-  color: red;
+  color: rgb(255, 133, 33);
+}
+.article p {
+  white-space: pre-wrap;
+}
+.article code {
+  background-color: rgb(49, 49, 49);
+  display: block;
+  padding: 0em 2em 1em 2em;
+  white-space: pre-line;
+  border-radius: 10px;
+  text-align: left;
+  font-family: "Oxygen Mono", monospace;
+  font-size: 0.8em;
 }
 
 /*# sourceMappingURL=styles.css.map */

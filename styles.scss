@@ -1,5 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+
+$ff:'Oxygen Mono', monospace;
+
+body {
+    background-color: rgb(24, 24, 24);
+    color: rgb(240, 240, 240);
+    font-family: $ff;
+    text-align: center;
+}
+
+.nav {
+
+}
+
 .article {
+    margin-top: 5em;
+    display: inline-block;
+    width: 50%;
+
     h1 {
-        color: red;
+        color: rgb(255, 133, 33);
+    }
+
+    p {
+        white-space: pre-wrap;
+    }
+
+    code {
+        background-color: rgb(49, 49, 49);
+        display: block;
+        padding: 0em 2em 1em 2em; // top is 0px to account for html \n and preline
+        white-space: pre-line;
+        border-radius: 10px;
+        text-align: left;
+        font-family: $ff;
+        font-size: 0.8em;
     }
 }
